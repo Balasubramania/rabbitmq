@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM dockerfile/centos
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
